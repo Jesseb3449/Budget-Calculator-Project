@@ -9,21 +9,42 @@
 </head>
 <body>
         <!-- Images for nav,-->
-        <nav><img src="EECU-Logo.png" alt="EECU-Logo"> <img src="Profile.jpg" alt="">Profile</nav>
+       <nav><a href="index.html"><img src="Images/EECU-Logo.png" alt="EECU-Logo"></a> <a href="Careers.html"><img src="Images/Profile.jpg" alt="Profile"></a></nav>
 
         <header>
             <h1>Budget Calculator</h1>
         </header>
+        <div>
 
         <!--Income for selected career-->
-        <section>
+        <section id="Income">
             <h2>Income</h2>
+            <p id="Annual-Income">Annual Income: $$$</p>
+            <p id="Monthly-Income">Monthly Income: $$$</p>
+            <p id="Post-Tax-Income">Post-Tax Income: $$$</p>
         </section>
     
-        <section>
+        <section id="Expenses">
             <h2>Expenses</h2>
-            <button>Add Expense</button>
+            <label for="Student-Loans">Student Loans:</label>
+            <input type="number" id="Student-Loans" name="Student-Loans" step="1" class="Expense">
+            <label for="Housing">Housing:</label>
+            <input type="number" id="Housing" name="Housing" step="1" class="Expense">
+            <label for="Essential">Essential:</label>
+            <input type="number" id="Essential" name="Essential" step="1" class="Expense">
+            <label for="Life-style">Lifestyle:</label>
+            <input type="number" id="Life-style" name="Life-style" step="1" class="Expense">
+            <label for="Savings">Savings:</label>
+            <input type="number" id="Savings" name="Savings" step="1" class="Expense">
+            <button id="Add-expense">Add Expense</button>
         </section>
+        </div>
+        <div>
+        <section id="Chart">
+            <h2>Chart</h2>
+           
+            
+        </div>
 
 </body>
 </html>
