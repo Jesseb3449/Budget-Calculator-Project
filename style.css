@@ -85,9 +85,10 @@ body {
     align-items: center;
 }
 #Expenses {
+    font-family: "Noto Sans", sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
 
 }
 .Expense {
@@ -131,6 +132,30 @@ body {
 }
 
 #main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container-Right {
+    width: 25vw;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#Income {
+    font-family: "Noto Sans", sans-serif;
+}
+
+#circle-green {
+    width: 50%;
+    height: 50%;
+    background-color: green;
+}
+
+#row-aligned {
     display: flex;
 }
 
